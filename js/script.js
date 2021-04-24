@@ -56,7 +56,7 @@ let ac = {
       now = hr + min + sec;
       if (now == ac.alarm) {
         window.open(
-          url, "_blank");
+          url, "_self");
       }
     }
   },
