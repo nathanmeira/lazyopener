@@ -51,6 +51,7 @@ let ac = {
 
 
     let url = document.getElementById("url").value;
+    url = url.match(/^http[s]?:\/\//) ? url : 'http://' + url;
 
     if (ac.alarm != null) {
       now = hr + min + sec;
