@@ -69,6 +69,7 @@ let ac = {
     ac.ths.disabled = true;
     ac.tset.disabled = true;
     ac.treset.disabled = false;
+    document.getElementById("tset").innerHTML = "<b>Ativo</b>";
   },
 
   reset : function () {
@@ -77,11 +78,11 @@ let ac = {
     ac.thm.disabled = false;
     ac.ths.disabled = false;
     ac.tset.disabled = false;
+    document.getElementById("tset").innerHTML = "<b>Ativar</b>";
     ac.treset.disabled = true;
-    let url = document.getElementById("url");
-    url.classList.remove("check");
-    url.value("");
     document.getElementById("url").value = "";
+    document.getElementById("url").innerHTML = "";
+
   }
 };
 

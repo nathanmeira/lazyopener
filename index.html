@@ -68,15 +68,15 @@
                   </div>
                 </form>
                 <p>Horário desejado:</p>
-                <div id="tpick" class="row justify-content-md-center pb-4">
+                <div id="tpick" class="row justify-content-md-start pb-4">
                   <div class="col-md-2">
-                    <div id="tpick-h" class="picker"></div>
+                    <div id="tpick-h" class="custom-select"></div>
                   </div>
-                  <div class="col-md-2">
-                    <div id="tpick-m" class="picker"></div>
+                  <div class="col-md-2" class="custom-select">
+                    <div id="tpick-m"></div>
                   </div>
-                  <div class="col-md-2">
-                    <div id="tpick-s" class="picker"></div>
+                  <div class="col-md-2" class="custom-select">
+                    <div id="tpick-s"></div>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@
                   <button id="treset" type="reset" class="btn btn-secondary"><b>Resetar</b></button>
                 </div>
                 <div class="col-md-6">
-                  <button id="tset" type="submit" class="btn btn-primary" onclick="getInputValue()"><b>Ativar</b></button>
+                  <button id="tset" type="submit" class="btn btn-primary"><b>Ativar</b></button>
                 </div>
               </div>
 
@@ -103,11 +103,3 @@
 
   </body>
 </html>
-
-<script>
-  function getInputValue(){
-    let url = document.getElementById("url")
-    url.classList.add("check");
-
-  }
-</script>

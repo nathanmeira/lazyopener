@@ -99,6 +99,28 @@ input.form-control:focus{
   padding: 15px;
 }
 
+select{
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #3F2093;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select:focus{
+  border-color: #3F2093;
+}
+
+
 #tset, #treset {
   padding: 10px 75px;
   /*min-width: 210px;*/
