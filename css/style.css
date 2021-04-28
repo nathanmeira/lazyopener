@@ -32,6 +32,12 @@ body{
   color: rgba(255, 255, 255, 0.75);
 }
 
+p{
+  font-family: Open Sans Hebrew;
+  font-style: normal;
+  font-weight: normal;
+}
+
 .numeration{
   width: 36px;
   height: 36px;
