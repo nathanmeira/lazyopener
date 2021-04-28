@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,800&display=swap');
 
+* {
+  font-family: Open Sans Hebrew;
+  font-style: normal;
+  font-weight: normal;
+}
+
 body{
   color: #29165C !important;
 }
@@ -30,12 +36,6 @@ body{
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.75);
-}
-
-p{
-  font-family: Open Sans Hebrew;
-  font-style: normal;
-  font-weight: normal;
 }
 
 .numeration{
