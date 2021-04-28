@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
-*{
-  font-family: 'Open Sans', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,800&display=swap');
 
 body{
   color: #29165C !important;
@@ -38,9 +35,16 @@ body{
 .numeration{
   width: 36px;
   height: 36px;
-  padding: 8px;
+  padding: 2px 8px;
   text-align: center;
-  color: white;
+  background-color: #fa949d;
+  border-radius: 25px;
+  color: #3e2093;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 14px;
 }
 
 img{
@@ -48,11 +52,10 @@ img{
 }
 
 h4{
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: 800;
+  font-family: 'Nunito', sans-serif !important;
   font-size: 24px;
   line-height: 33px;
+  font-weight: bold;
   letter-spacing: 0.003em;
   color: #29165C;
 }
